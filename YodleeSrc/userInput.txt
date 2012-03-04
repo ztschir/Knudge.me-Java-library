@@ -1,0 +1,18 @@
+#This is the sample input file, use this file you can give the input to the sampleApps automatically 
+#instead of manually from console, specify this file path in the SampleApp.properties.
+
+#The following workflow is doing login
+3 #login menu
+testbatch1 #login name
+testbatch11 #password
+
+#The following workflow is doing batch account data services
+6 #Batch Account sub-menu
+1 #Get Item Data in Batch Account sub-menu
+2 # Number of users
+testbatch1 # 1st username
+testbatch11 # password
+testbatch2
+testbatch22
+0 # exit Batch Account submenu
+0 # exit main menu
